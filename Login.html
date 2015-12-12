@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	
+<!--To make an HTML login page, I need...
+	*Document Title ("Login")
+	* Username field
+	* Password Field
+	* Descriptors of the two, so the user knows what to put where
+	* Login button
+	* "Forgot password?" button (optional for now)
+	* "Successful Login" page-->
+	
+	
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="LoginStyle.css">
+		<title>Login</title>
+	</head>
+	
+	<body>
+	<div class="container">
+		<div class="login">
+			<h2>Log in to Julian's website:</h2>			
+			<form action="success.html","forgotpassword.html">
+			<p>
+				<input type="text" name="username" placeholder="Username or Email">
+			</p>			
+			<p>
+				<input type="text" name="password" placeholder="Password">					
+			</p>
+			<p class="remember_me">
+				<label>
+				<input type="checkbox" name="remember_me" value="remember_me">				
+				Remember me on this device
+				</label>
+				
+			</p>
+			<p class = "submit">
+				<input type="submit" value="Login">		
+			</p>		
+			</form>
+		</div>
+		<div class="login-help">
+			<a href="forgotpassword.html">Forgot Password?</a>
+		</div>
+	</div>
+	
+	<!-- This is me adding a comment and hoping it shows up on GitHub Desktop. -->
+	
+	</body>
+</html>
